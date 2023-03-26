@@ -19,6 +19,5 @@ RSpec.describe 'Substrings tests' do
       expect(substrings("Howdy partner, sit down! How's it going?", dictionary)).to eq(expected_output)
     end
 
-
   end
 end
